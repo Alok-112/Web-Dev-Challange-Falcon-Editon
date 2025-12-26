@@ -11,7 +11,36 @@
 - setup a node project by this command `npm init`
 - make a index.js file 
 - By default the type in `package.json` will be `commonjs` but we need to change it to `module` because we will be using modules 
-```js
+
+Package.json
+```json
+{
+  "name": "projectmanagement",
+  "version": "1.0.0",
+  "description": "a project management application for beginners",
+  "keywords": [
+    "udemy",
+    "course",
+    "backend",
+    "API",
+    "Creation"
+  ],
+  "license": "ISC",
+  "author": "Alok",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11",
+    "prettier": "3.7.4"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3"
+  }
+}
 
 ```
 ### Vid 109. Add prettier and git to the code base
