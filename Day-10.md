@@ -1,4 +1,4 @@
-Day 10 - Building a Complete Backend
+### Day 10 - Building a Complete Backend
 
 - Learn to handle mongoose methods
 - What are JWT Tokens
